@@ -1,0 +1,11 @@
+#banner {
+    background-color: #050d21;
+}
+
+h3 {
+    color: white;
+    background-color:  #050d21;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+}

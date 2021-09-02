@@ -1,0 +1,55 @@
+.card-body {
+    background-color: #050d21;
+    color: white;
+    
+}
+
+.mb-5 {
+    /* width: 50%; */
+    background-color: #050d21;
+}
+
+
+.list-group {
+    background-color: #050d21;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.list-group-item{
+    width: auto;
+    background-color: #050d21;
+    color: white;
+    
+}
+
+.mb-3 {
+    position: relative;
+    color: #fff;
+    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.mt-5 {
+    font-family: Georgia, serif;
+}
+
+.about{
+    text-indent: 50px;
+}
+
+.breaker {
+    background-color: white;
+    height: 1px;
+    width: 100%;
+    display: block;
+}
+
+.expLi {
+    height: fit-content;
+}
+
+.mx-3 {
+    height: fit-content;
+}

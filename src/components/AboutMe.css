@@ -1,0 +1,26 @@
+.about{
+    text-indent: 50px;
+}
+
+.profile_pic {
+    margin-left: 3px;
+    border-radius: 3px;
+}
+
+
+.list-group {
+    justify-content: start;
+}
+
+.edexp {
+    padding-top: 17px;
+}
+
+.breaker {
+    background-color: white;
+    height: 1px;
+    width: 100%;
+    display: block;
+}
+
+
