@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { MemoryRouter as Router} from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 import Blog from '../components/Blog/Blog'
 import Resume from './Resume'
 import Homepage from './Homepage';
