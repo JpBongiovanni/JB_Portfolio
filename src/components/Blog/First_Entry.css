@@ -1,0 +1,33 @@
+.blog {
+    background-color: #050d21
+}
+
+.header {
+    color: white;
+    text-align: center;
+}
+
+.fe_image {
+    height: 200px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fe_image:hover {
+    transform: scale(1.8);
+}
+
+.body_text {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+p {
+    padding: 5px;
+}
+
+.tab {
+    text-indent: 40px
+}
