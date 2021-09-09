@@ -2,6 +2,7 @@ const entries = [
     {
         id: 1,
         title: 'First Entry',
+        url: 'first_entry',
         category: 'Portfolio',
         date: '09/08/2021',
         img: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.FnxoFdzE84vPyZh2MFtPNAHaD4%26pid%3DApi&f=1',
@@ -11,6 +12,7 @@ const entries = [
     {
         id: 2,
         title: 'Game Review: Hollow Knight',
+        url: 'hollow_knight_review',
         category: 'Game Reviews',
         date: '09/08/2021',
         img: 'https://store-images.s-microsoft.com/image/apps.18195.14259955503324792.fee0f975-9292-4852-ad19-c6ec880d57d3.35e9f104-1086-48a4-a429-c1c8dd863347',
@@ -20,6 +22,7 @@ const entries = [
     {
         id: 3,
         title: 'World Deity Database: CSV Generator',
+        url: 'csv_generator',
         category: 'Projects',
         date: '09/08/2021',
         img: 'https://jb-portfolio.vercel.app/static/media/world_diety_database_logo.6385e33c.jpg',
