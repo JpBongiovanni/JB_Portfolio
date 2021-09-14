@@ -28,7 +28,7 @@ const CsvGen = () => {
                     </p>
                     <img className="fe_image d-flex justify-content-center" src={CsvCode} />
                     <p className="tab">
-                        The function in views.py returns an HttpResponse that takes the content type of "text/csv." Because every column in my database is not really necessary to export (like contributor id, or upload date), the function writes rows based on the selected columns, skipping over the ones not selected. Check out the full code on <a href="https://github.com/JpBongiovanni/WorldDeityDatabase/blob/main/wiki_app/views.py"><strong>GitHub</strong></a>.
+                        The function in views.py returns an HttpResponse that takes the content type of "text/csv." Because every column in my database is not really necessary to export (like contributor id, or upload date), the function writes rows based on the selected columns, skipping over the ones not selected. Check out the full code on <a href="https://github.com/JpBongiovanni/WorldDeityDatabase/blob/main/wiki_app/views.py" target="_blank" rel="noopener noreferrer"><strong>GitHub</strong></a>.
                     </p>
                 </div>
             </div>
