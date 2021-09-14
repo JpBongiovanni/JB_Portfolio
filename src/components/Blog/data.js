@@ -22,11 +22,21 @@ const entries = [
     {
         id: 3,
         title: 'World Deity Database: CSV Generator',
-        url: 'csv_generator',
+        url: 'csv_gen',
         category: 'Projects',
         date: '09/08/2021',
         img: 'https://jb-portfolio.vercel.app/static/media/world_diety_database_logo.6385e33c.jpg',
         desc: 'The World Deity database was completed in early 2021. Since then various upgrades have been made. In this Post I discuss the integration of the CSV generator using Python...'
+    },
+
+    {
+        id: 4,
+        title: 'Blockchain: Solidity Practice',
+        url: 'solidity_practice',
+        category: 'Blockchain',
+        date: '09/14/2021',
+        img: 'https://pbs.twimg.com/profile_images/1240311693177167892/-5a2yoQp.jpg',
+        desc: 'This entry marks my dive into blockchain research and Solidity. Here you will see the code for my first contract...'
     },
 ];
 
