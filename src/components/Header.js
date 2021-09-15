@@ -20,9 +20,7 @@ const Header = () => {
                 <FaGithub></FaGithub>
             </a>
             <p className="lead" >
-                (781) 315-1959
-            </p>
-            <p className="lead" >
+                (781) 315-1959 <br />
                 Full Stack Developer & Educatonal Technology Specialist
             </p>
         </div>
