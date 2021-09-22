@@ -34,7 +34,8 @@ const Header = () => {
                 (781) 315-1959 <br />
                 Full Stack Developer & Educatonal Technology Specialist <br />
             </p>
-            {/* <div>{data.exampleMessage}</div> */}
+            {/* <div>{data.exampleMessage}</div> added backend checking on vercel*/}
+            
         </div>
         
     );
