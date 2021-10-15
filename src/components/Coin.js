@@ -11,7 +11,7 @@ image,
 priceChange
 }) => {
 return (
-<div className='coin-container'>
+<div className='coin-container rounded my-2'>
     <div className='coin-row'>
     <div className='coin'>
         <img src={image} alt='crypto' />
@@ -19,17 +19,17 @@ return (
         <p className='coin-symbol'>{symbol}</p>
     </div>
     <div className='coin-data'>
-        <p className='coin-price'>${price}</p>
-        <p className='coin-volume'>${volume.toLocaleString()}</p>
+        <p className='coin-price'>Coin Price: ${price}</p>
+        <p className='coin-volume'>Volume: ${volume.toLocaleString()}</p>
 
         {priceChange < 0 ? (
-        <p className='coin-percent red'>{priceChange.toFixed(2)}%</p>
+        <p className='coin-percent red'>Change: {priceChange.toFixed(2)}%</p>
         ) : (
-        <p className='coin-percent green'>{priceChange.toFixed(2)}%</p>
+        <p className='coin-percent green'>Change: {priceChange.toFixed(2)}%</p>
         )}
 
         <p className='coin-marketcap'>
-        Mkt Cap: ${marketcap.toLocaleString()}
+        Market Cap: ${marketcap.toLocaleString()}
         </p>
     </div>
     </div>
