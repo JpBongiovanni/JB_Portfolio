@@ -9,6 +9,7 @@ import FirstEntry from './Blog/First_Entry';
 import CsvGen from './Blog/csv_gen';
 import SolidityPractice from './Blog/solidity_practice';
 import GRHollowKnight from './Blog/GR_HollowKnight';
+import CryptoInfo from './CryptoInfo';
 
 const Main = () => {
     return (
@@ -22,6 +23,7 @@ const Main = () => {
                 <Route exact path ='/csv_gen' component={CsvGen}></Route>
                 <Route exact path ='/solidity_practice' component={SolidityPractice}></Route>
                 <Route exact path = '/hollow_knight' component={GRHollowKnight}></Route>
+                <Route exact path = '/crypto_info' component={CryptoInfo}></Route>
             </Switch>
         </Router>
     );

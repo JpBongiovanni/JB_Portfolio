@@ -4,7 +4,8 @@ import { AiFillHome } from 'react-icons/ai';
 import { BsPersonFill } from 'react-icons/bs';
 import { HiDocumentDuplicate } from 'react-icons/hi';
 import { ImBlogger2 } from 'react-icons/im';
-import './Nav-Bar.css';
+import { BiBitcoin } from 'react-icons/bi';
+import './Nav-Bar.css'
 
 const NavBar = () => {
 
@@ -42,6 +43,14 @@ const NavBar = () => {
                 </span>
                 <span>
                     <Link to="/blog" className="btn m-2 px-5 text-white">BLOG</Link>
+                </span>
+            </li>
+            <li className="nav-item">
+                <span>
+                    <i aria-hidden='true'><BiBitcoin /></i>
+                </span>
+                <span>
+                    <Link to="/crypto_info" className="btn m-2 px-5 text-white">Crypto Info</Link>
                 </span>
             </li>
         </ul>
