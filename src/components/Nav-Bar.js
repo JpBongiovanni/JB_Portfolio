@@ -5,6 +5,7 @@ import { BsPersonFill } from 'react-icons/bs';
 import { HiDocumentDuplicate } from 'react-icons/hi';
 import { ImBlogger2 } from 'react-icons/im';
 import { BiBitcoin } from 'react-icons/bi';
+import { TiWeatherPartlySunny } from 'react-icons/ti';
 import './Nav-Bar.css'
 
 const NavBar = () => {
@@ -51,6 +52,14 @@ const NavBar = () => {
                 </span>
                 <span>
                     <Link to="/crypto_info" className="btn m-2 px-5 text-white">Crypto Info</Link>
+                </span>
+            </li>
+            <li className="nav-item">
+                <span>
+                    <i aria-hidden='true'><TiWeatherPartlySunny /></i>
+                </span>
+                <span>
+                    <Link to="/weather" className="btn m-2 px-5 text-white">Weather</Link>
                 </span>
             </li>
         </ul>

@@ -10,6 +10,7 @@ import CsvGen from './Blog/csv_gen';
 import SolidityPractice from './Blog/solidity_practice';
 import GRHollowKnight from './Blog/GR_HollowKnight';
 import CryptoInfo from './CryptoInfo';
+import Weather from './weather_api/weatherIndex';
 
 const Main = () => {
     return (
@@ -24,6 +25,7 @@ const Main = () => {
                 <Route exact path ='/solidity_practice' component={SolidityPractice}></Route>
                 <Route exact path = '/hollow_knight' component={GRHollowKnight}></Route>
                 <Route exact path = '/crypto_info' component={CryptoInfo}></Route>
+                <Route exact path = '/weather' component={Weather}></Route>
             </Switch>
         </Router>
     );
