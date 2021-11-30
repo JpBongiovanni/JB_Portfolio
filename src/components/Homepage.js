@@ -38,7 +38,7 @@ const Homepage = () => {
                             <p className="card-text">The Gaming News API was created utilizing Express, Axios, and Cheerio. The API scrapes the webpages of various gaming news sites for a specific game franchise, and then returns the newest headlines for your favorite video games. Click here or on the navbar for the most up-to-date news on the Super Mario franchise, or visit rapidapi.com to test endpoints, and copy code snippets to utilize the API for your own project.</p>
                             <div className="row">
                                 <div className="col">
-                                    <a href="https://github.com/JpBongiovanni/JB_Portfolio" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View On GitHub</a>
+                                    <a href="https://github.com/JpBongiovanni/gaming_news_api/blob/main/index.js" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View On GitHub</a>
                                 </div>
                                 <div className="col">
                                     <a href="https://rapidapi.com/JpBongiovanni/api/video-game-news/" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View On RapidApi</a>
