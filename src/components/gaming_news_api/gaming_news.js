@@ -43,12 +43,8 @@ export default class Table extends Component {
             <div className="wrapper-users">
                 <Header></Header>
                 <NavBar></NavBar>
-                <div className="container">
-                    <div className="row">
-                        <div>
-                            <h1 className="text-white bg-secondary">Under Construction</h1>
-                        </div>
-                    </div>
+                <div className="container center">
+                    <h1 className="text-white text-center bg-secondary mt-3">Super Mario News</h1>
                 </div>
                 <br></br>
                 <div className="container">

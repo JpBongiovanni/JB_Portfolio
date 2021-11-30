@@ -4,6 +4,8 @@ import Header from './Header'
 import wdd_logo from '../images/world_diety_database_logo.jpg'
 import login_logo from '../images/login.png'
 import python_logo from '../images/python_logo.jpeg'
+import api_logo from '../images/api_logo.gif'
+
 import './Homepage.css'
 
 const Homepage = () => {
@@ -30,10 +32,29 @@ const Homepage = () => {
                 </div>
                 <div className="col-lg-3 ">
                     <div className="card m-b-3 border border-primary border-3">
+                        <a className="img_card" href="https://jb-portfolio.vercel.app/gaming_news" target="_blank" rel="noopener noreferrer"><img className="img card-img-top" src={api_logo} alt="Log In Application" width="200px" height="145px" /></a>
+                        <div className="card-body">
+                            <h5 className="card-title"><a href="https://jb-portfolio.vercel.app/gaming_news" target="_blank" rel="noopener noreferrer">Gaming News API</a></h5>
+                            <p className="card-text">The Gaming News API was created utilizing Express, Axios, and Cheerio. The API scrapes the webpages of various gaming news sites for a specific game franchise, and then returns the newest headlines for your favorite video games. Click here or on the navbar for the most up-to-date news on the Super Mario franchise, or visit rapidapi.com to test endpoints, and copy code snippets to utilize the API for your own project.</p>
+                            <div className="row">
+                                <div className="col">
+                                    <a href="https://github.com/JpBongiovanni/JB_Portfolio" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View On GitHub</a>
+                                </div>
+                                <div className="col">
+                                    <a href="https://rapidapi.com/JpBongiovanni/api/video-game-news/" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View On RapidApi</a>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-3 ">
+                    <div className="card m-b-3 border border-primary border-3">
                         <a className="img_card" href="https://github.com/JpBongiovanni/JB_Portfolio" target="_blank" rel="noopener noreferrer"><img className="img card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Log In Application" width="200px" height="145px" /></a>
                         <div className="card-body">
                             <h5 className="card-title">Personal Website (React)</h5>
-                            <p className="card-text">My personal website was made using Create React App, and is continuously updated to showcase HTML, CSS, Javascript, and React Components. </p>
+                            <p className="card-text">My personal website was made using Create React App, and is continuously updated to showcase HTML, CSS, Javascript, and React Components. The website includes a lits of my current projects, an About Me section, a Blog section, and two APIs. </p>
                             <a href="https://github.com/JpBongiovanni/JB_Portfolio" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View On GitHub</a>
                         </div>
                     </div>
