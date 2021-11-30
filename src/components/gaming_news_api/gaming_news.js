@@ -33,7 +33,7 @@ export default class Table extends Component {
 
     DataTable(){
         return this.state.newsCollection.map((data, i) => {
-            return <DataTable obj={data} key={i} />;
+            return <DataTable obj={data} key={i} />
         });
     }
 
@@ -56,9 +56,8 @@ export default class Table extends Component {
                         <thead>
                             <tr>
                                 <td>Publication</td>
-                                <td>Source</td>
                                 <td>Title</td>
-                                <td>Link</td>
+                                <td>Source</td>
                             </tr>
                         </thead>
                         <tbody>

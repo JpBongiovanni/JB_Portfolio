@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class DataTable extends Component {
     render(){
         return (
@@ -8,13 +9,13 @@ class DataTable extends Component {
                     {this.props.obj.publication}
                 </td> */}
                 <td>
-                    {this.props.obj.source}
+                    <a href={this.props.obj.publication} target="_blank" rel="noopener noreferrer">{this.props.obj.source}</a>
                 </td>
                 <td>
                     {this.props.obj.text}
                 </td>
                 <td>
-                    {this.props.obj.url}
+                    <a href={this.props.obj.url} target="_blank" rel="noopener noreferrer">{this.props.obj.url}</a>
                 </td>
             </tr>
         )
