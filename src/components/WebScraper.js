@@ -1,6 +1,8 @@
 import React from 'react';
 const apiKey = {}
 const newArr = []
+const apiNews = {}
+//worked on Hatchway test
 
 
 const WebScraper = () => {
