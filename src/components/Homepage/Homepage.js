@@ -1,10 +1,10 @@
 import React from 'react'
-import NavBar from './Nav-Bar'
-import Header from './Header'
-import wdd_logo from '../images/world_diety_database_logo.jpg'
-import login_logo from '../images/login.png'
-import python_logo from '../images/python_logo.jpeg'
-import api_logo from '../images/api_logo.gif'
+import NavBar from '../NavBar/Nav-Bar'
+import Header from '../Header/Header'
+import wdd_logo from '../../images/world_diety_database_logo.jpg'
+import login_logo from '../../images/login.png'
+import python_logo from '../../images/python_logo.jpeg'
+import api_logo from '../../images/api_logo.gif'
 
 import './Homepage.css'
 

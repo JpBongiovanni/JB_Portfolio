@@ -1,5 +1,5 @@
 import React from 'react';
-import './Nav-Bar';
+import './NavBar/Nav-Bar';
 import './Main';
 import Main from './Main';
 

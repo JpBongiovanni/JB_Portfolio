@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Coin from './Coin';
-import NavBar from './Nav-Bar';
-import Header from './Header';
+import NavBar from '../NavBar/Nav-Bar';
+import Header from '../Header/Header';
 import './CryptoInfo.css'
 
 function CryptoInfo() {

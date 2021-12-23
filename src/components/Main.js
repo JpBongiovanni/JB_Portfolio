@@ -1,16 +1,27 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { BrowserRouter as Router} from 'react-router-dom';
-import Blog from '../components/Blog/Blog';
-import Resume from './Resume';
-import Homepage from './Homepage';
-import AboutMe from './AboutMe';
+
+import Blog from './Blog/Blog';
+import Resume from './Resume/Resume';
+import Homepage from './Homepage/Homepage';
+import AboutMe from './AboutMe/AboutMe';
 import FirstEntry from './Blog/First_Entry';
 import CsvGen from './Blog/csv_gen';
 import SolidityPractice from './Blog/solidity_practice';
 import GRHollowKnight from './Blog/GR_HollowKnight';
-import CryptoInfo from './CryptoInfo';
-import GamingNews from './gaming_news_api/gaming_news';
+import CryptoInfo from './CryptoAPI/CryptoInfo';
+import GamingNews from './gaming_news_api/gaming_news'
+// import Blog from '../components/Blog/Blog';
+// import Resume from './Resume';
+// import Homepage from './Homepage';
+// import AboutMe from './AboutMe';
+// import FirstEntry from './Blog/First_Entry';
+// import CsvGen from './Blog/csv_gen';
+// import SolidityPractice from './Blog/solidity_practice';
+// import GRHollowKnight from './Blog/GR_HollowKnight';
+// import CryptoInfo from '../components/CryptoAPI/CryptoInfo';
+// import GamingNews from './gaming_news_api/gaming_news';
 
 const Main = () => {
     return (

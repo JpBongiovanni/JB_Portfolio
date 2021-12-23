@@ -1,5 +1,5 @@
-import NavBar from '../Nav-Bar';
-import Header from '../Header';
+import NavBar from '../NavBar/Nav-Bar';
+import Header from '../Header/Header';
 import "./Blog.css";
 import BlogApp from './BlogApp'
 

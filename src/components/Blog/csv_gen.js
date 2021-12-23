@@ -1,5 +1,5 @@
-import NavBar from '../Nav-Bar';
-import Header from '../Header';
+import NavBar from '../NavBar/Nav-Bar';
+import Header from '../Header/Header';
 import CsvNav from '../Blog/blog_images/csv_nav.jpg';
 import './csv_gen.css';
 import CsvGif from '../Blog/blog_images/csv_gen.gif';

@@ -1,5 +1,5 @@
-import NavBar from '../Nav-Bar';
-import Header from '../Header';
+import NavBar from '../NavBar/Nav-Bar';
+import Header from '../Header/Header';
 import metamask from './blog_images/metamask.jpg';
 import simpleStorage from './blog_images/simple_storage.jpg';
 import storageFactory from './blog_images/storage_factory.jpg';

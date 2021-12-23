@@ -1,5 +1,5 @@
-import NavBar from '../Nav-Bar';
-import Header from '../Header';
+import NavBar from '../NavBar/Nav-Bar';
+import Header from '../Header/Header';
 import './First_Entry.css';
 import categories from './blog_images/categories.jpg';
 import categoriesUI from './blog_images/categoriesUI.gif';

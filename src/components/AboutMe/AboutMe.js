@@ -1,14 +1,15 @@
 import React from 'react';
-import NavBar from './Nav-Bar';
-import Header from './Header';
+import NavBar from '../NavBar/Nav-Bar';
+import Header from '../Header/Header';
 import './AboutMe.css';
-import profile_pic from '../images/Profile_pic.png';
-import houghton_logo from '../images/HoughtonLogo.jpg';
-import cd_logo from '../images/CDLogo.jpg';
-import cf_logo from '../images/CFLogo.jpg';
-import bli_logo from '../images/BLILogo.jpg';
-import google_logo from '../images/GoogLogo.jpg';
-import ace_logo from '../images/ACELogo.jpg';
+import profile_pic from '../../images/Profile_pic.png';
+import houghton_logo from '../../images/HoughtonLogo.jpg';
+import cd_logo from '../../images/CDLogo.jpg';
+import cf_logo from '../../images/CFLogo.jpg';
+import bli_logo from '../../images/BLILogo.jpg';
+import google_logo from '../../images/GoogLogo.jpg';
+import ace_logo from '../../images/ACELogo.jpg';
+// import ace_logo from '../images/ACELogo.jpg';
 
 const AboutMe = () => {
     return (

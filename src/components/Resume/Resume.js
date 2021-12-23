@@ -1,8 +1,8 @@
 import React from 'react'
-import NavBar from './Nav-Bar';
-import Header from './Header';
+import NavBar from '../NavBar/Nav-Bar';
+import Header from '../Header/Header';
 import "./Resume.css";
-import resume from './docs/ResumeJasonBon.pdf'
+import resume from '../docs/ResumeJasonBon.pdf'
 
 const Resume = () => {
 
