@@ -26,7 +26,7 @@ const Homepage = () => {
                             <a href="https://worlddeitydb.herokuapp.com/" target="_blank" rel="noopener noreferrer"><h5 className="card-title">World Deity Database</h5></a>
                             <p className="card-text">The World Database is a tool used to aggregate information from users around the world in the field of ancient religions, cultures and traditional beliefs. Built with an intuitive backend and a user friendly frontend by styling with Bootstrap 4.0, Python 2.2 and Django. The database serves as a hub for specific information and sources in a niche field to serve researchers as they study ancient cultures.
                                 </p>
-                                <a href="https://github.com/JpBongiovanni/World_Deity_Database/blob/main/README.md" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View On GitHub</a>
+                                <a href="https://github.com/JpBongiovanni/WorldDeityDatabase/blob/main/README.md" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View On GitHub</a>
                         </div>
                     </div>
                 </div>
