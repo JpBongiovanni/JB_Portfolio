@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import NavBar from '../NavBar/Nav-Bar';
 import Header from '../Header/Header';
 import axios from "axios";
-import DataTable from "./gaming_news_data"
+import DataTable from "./gaming_news_data";
+import './gaming_news.css'
 
 
 export default class Table extends Component {
@@ -44,10 +45,10 @@ export default class Table extends Component {
                 <Header></Header>
                 <NavBar></NavBar>
                 <div className="container center">
-                    <h1 className="text-white text-center bg-secondary mt-3">Super Mario News</h1>
+                    <h1 className="text-white text-center bg-secondary mt-3 border pb-3 shadow rounded">Super Mario News</h1>
                 </div>
                 <br></br>
-                <div className="container">
+                <div className="data container center">
                     <table className="table table-striped table-dark">
                         <thead>
                             <tr>

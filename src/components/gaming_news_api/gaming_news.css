@@ -1,0 +1,9 @@
+h1 {
+    text-shadow: black 2px 5px;
+}
+
+.data {
+    display: flex;
+    border: solid black 1px;
+    margin-left: 200px
+}

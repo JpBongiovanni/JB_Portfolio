@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './gaming_news.css'
 
 
 class DataTable extends Component {
