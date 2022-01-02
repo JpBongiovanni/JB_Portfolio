@@ -10,6 +10,7 @@ volume,
 image,
 priceChange
 }) => {
+
 return (
 <div className='coin-container rounded my-2'>
     <div className='coin-row'>
@@ -19,13 +20,13 @@ return (
         <p className='coin-symbol'>{symbol}</p>
     </div>
     <div className='coin-data'>
-        <p className='coin-price'>Coin Price: ${price}</p>
+        <p className='coin-price'>Coin Price: ${price.toLocaleString()}</p>
         <p className='coin-volume'>Volume: ${volume.toLocaleString()}</p>
 
         {priceChange < 0 ? (
-        <p className='coin-percent red'>Change: {priceChange.toFixed(2)}%</p>
+        <p className='coin-percent red'>Change: {Math.round(priceChange*100)/100}%</p>
         ) : (
-        <p className='coin-percent green'>Change: {priceChange.toFixed(2)}%</p>
+        <p className='coin-percent green'>Change: {Math.round(priceChange*100)/100}%</p>
         )}
 
         <p className='coin-marketcap'>
