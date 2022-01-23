@@ -23,7 +23,7 @@ function BlogApp() {
         <section className="menu section">
             <div className="title">
                 <h2>Entries</h2>
-                <h4>Update coming soon - March 2022</h4>
+                <h4>Update coming soon - March 2022 - A full stack Python/Django website!</h4>
                 <Categories categories={categories}filterItems={filterItems}/>
             </div>
             <div>
