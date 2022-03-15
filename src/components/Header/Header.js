@@ -32,7 +32,7 @@ const Header = () => {
             </a>
             <p className="lead" >
                 (781) 315-1959 <br />
-                Full Stack Developer & Educatonal Technology Specialist <br />
+                Full Stack Developer & Educational Technology Specialist <br />
             </p>
             {/* <div>{data.exampleMessage}</div> */}
         </div>
