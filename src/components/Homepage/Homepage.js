@@ -5,6 +5,7 @@ import wdd_logo from '../../images/world_diety_database_logo.jpg'
 import login_logo from '../../images/login.png'
 import python_logo from '../../images/python_logo.jpeg'
 import api_logo from '../../images/api_logo.gif'
+import java_logo from '../../images/javaLogo.png'
 
 import './Homepage.css'
 
@@ -61,11 +62,11 @@ const Homepage = () => {
                 </div>
                 <div className="col-lg-3">
                     <div className="card m-b-3 border border-primary border-3">
-                        <a className="img_card" href="https://jpbongiovanni.github.io/PythonFunctionLibrary/" target="_blank" rel="noopener noreferrer"><img className="img card-img-top" src={python_logo} alt="Python Functions Library" /></a>
+                        <a className="img_card" href="https://github.com/JpBongiovanni/EmployeeManager" target="_blank" rel="noopener noreferrer"><img className="img card-img-top" src={java_logo} alt="Python Functions Library" /></a>
                         <div className="card-body">
-                            <h5 className="card-title">Python Functions Library</h5>
-                            <p className="card-text">The Python function library is an ever growing library of Python functions ranging from basic to advanced difficulty. Each function is ready to be utilized in a variety of projects and includes a brief description of what the function does, and how it can be utilized in different settings.</p>
-                            <a href="https://jpbongiovanni.github.io/PythonFunctionLibrary/" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View On GitHub</a>
+                            <h5 className="card-title">Employee Manager (Java)</h5>
+                            <p className="card-text">The Employee Manager Application was created using the Java Spring Boot framework with MySQL connectivity, and Angular frontend. The application enables users to interact through a GUI to add, edit, filter, and delete entries in the MySqL database</p>
+                            <a href="https://github.com/JpBongiovanni/EmployeeManager" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View On GitHub</a>
                         </div>
                     </div>
                 </div>
