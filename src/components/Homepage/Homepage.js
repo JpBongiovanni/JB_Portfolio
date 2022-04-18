@@ -80,7 +80,7 @@ const Homepage = () => {
                         <div className="card-body">
                             <div className="mx-3">
                                 <h4>Yongsan International School of Seoul</h4>
-                                <div><strong>2016-current | Seoul, south Korea</strong></div>
+                                <div><strong>2016-2021 | Seoul, south Korea</strong></div>
                                 Middle School humanities teacher <br></br>
                                 Assistant Athletic Trainer
                                 <ul className="list-group list-group-flush mt-2">
