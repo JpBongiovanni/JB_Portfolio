@@ -62,11 +62,11 @@ const Homepage = () => {
                 </div>
                 <div className="col-lg-3">
                     <div className="card m-b-3 border border-primary border-3">
-                        <a className="img_card" href="https://github.com/JpBongiovanni/EmployeeManager" target="_blank" rel="noopener noreferrer"><img className="img card-img-top" src={java_logo} alt="Python Functions Library" /></a>
+                        <a className="img_card" href="https://github.com/JpBongiovanni/EmployeeManagerFrontEnd/blob/main/README.md" target="_blank" rel="noopener noreferrer"><img className="img card-img-top" src={java_logo} alt="Python Functions Library" /></a>
                         <div className="card-body">
                             <h5 className="card-title">Employee Manager (Java)</h5>
                             <p className="card-text">The Employee Manager Application was created using the Java Spring Boot framework with MySQL connectivity, and Angular frontend. The application enables users to interact through a GUI to add, edit, filter, and delete entries in the MySqL database</p>
-                            <a href="https://github.com/JpBongiovanni/EmployeeManager" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View On GitHub</a>
+                            <a href="https://github.com/JpBongiovanni/EmployeeManagerFrontEnd/blob/main/README.md" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View On GitHub</a>
                         </div>
                     </div>
                 </div>
