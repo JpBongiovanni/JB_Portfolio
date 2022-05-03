@@ -9,6 +9,7 @@ import cf_logo from '../../images/CFLogo.jpg';
 import bli_logo from '../../images/BLILogo.jpg';
 import google_logo from '../../images/GoogLogo.jpg';
 import ace_logo from '../../images/ACELogo.jpg';
+import talentheed_logo from '../../images/TalentheedLogo.jpg';
 // import ace_logo from '../images/ACELogo.jpg';
 
 const AboutMe = () => {
@@ -76,15 +77,26 @@ const AboutMe = () => {
                     <div className="card-body">
                         <h3>Certifications</h3>
                         <ul className="list-group list-group-horizontal">
-                        <li className="list-group-item">
-                            <img src={bli_logo} alt="coding dojo logo" width="60" height="60" />
-                        </li>
-                        <li className="list-group-item">
-                            <div className="edexp">
-                                <p>TEFL Certification The Boston Language Institute Issued Nov 2009 - No Expiration Date</p>
-                            </div>
-                            <div className="breaker"></div>
-                        </li>
+                            <li className="list-group-item">
+                                <img src={talentheed_logo} alt="talentheed logo" width="60" height="60" />
+                            </li>
+                            <li className="list-group-item">
+                                <div className="edexp">
+                                    <p>Java Web Development - successfully completed 8 weeks/ 20 hours training program</p>
+                                </div>
+                                <div className="breaker"></div>
+                            </li>
+                        </ul>
+                        <ul className="list-group list-group-horizontal">
+                            <li className="list-group-item">
+                                <img src={bli_logo} alt="coding dojo logo" width="60" height="60" />
+                            </li>
+                            <li className="list-group-item">
+                                <div className="edexp">
+                                    <p>TEFL Certification The Boston Language Institute Issued Nov 2009 - No Expiration Date</p>
+                                </div>
+                                <div className="breaker"></div>
+                            </li>
                         </ul>
                         <ul className="list-group list-group-horizontal">
                         <li className="list-group-item">
