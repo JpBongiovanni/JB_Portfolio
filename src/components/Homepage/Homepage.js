@@ -120,24 +120,23 @@ const Homepage = () => {
                 <div className="card shadow mb-5 bg-white rounded border border-primary border-3">
                     <div className="card-body">
                         <div className="mx-3">
-                            <h4>Languages</h4>
+                            
                             <ul className="list-group">
+                                <h3 className='skills-title'>Languages</h3>
                                 <li className="expLi list-group-item">Python</li>
                                 <li className="expLi list-group-item">Java</li>
                                 <li className="expLi list-group-item">JavaScript</li>
                                 <li className="expLi list-group-item">TypeScript</li>
                                 <li className="expLi list-group-item">HTML</li>
                                 <li className="expLi list-group-item">CSS</li>
-                            </ul>
-                            <h4>Databases</h4>
-                            <ul>
+                                <hr></hr>
+                                <h3 className='skills-title'>Databases</h3>
                                 <li className="expLi list-group-item">Node.js</li>
                                 <li className="expLi list-group-item">MySQL</li>
                                 <li className="expLi list-group-item">MongoDB</li>
                                 <li className="expLi list-group-item">PostgreSQL</li>
-                            </ul>
-                            <h4>Frameworks/Libraries</h4>
-                            <ul>
+                                <hr></hr>
+                                <h3 className='skills-title'>Frameworks/Libraries</h3>
                                 <li className='expLi list-group-item'>Django</li>
                                 <li className='expLi list-group-item'>Spring Boot</li>
                                 <li className='expLi list-group-item'>Angular</li>
@@ -146,9 +145,8 @@ const Homepage = () => {
                                 <li className='expLi list-group-item'>Pandas</li>
                                 <li className='expLi list-group-item'>Kaboom</li>
                                 <li className='expLi list-group-item'>Bootstrap</li>
-                            </ul>
-                            <h4>Tools</h4>
-                            <ul>
+                                <hr></hr>
+                                <h3 className='skills-title'>Tools</h3>
                                 <li className='expLi list-group-item'>Heroku</li>
                                 <li className='expLi list-group-item'>Vercel</li>
                                 <li className='expLi list-group-item'>Axios</li>

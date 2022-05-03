@@ -53,3 +53,7 @@
 .mx-3 {
     height: fit-content;
 }
+
+.skills-title{
+    text-decoration: underline;
+}
