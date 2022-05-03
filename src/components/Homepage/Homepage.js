@@ -120,19 +120,43 @@ const Homepage = () => {
                 <div className="card shadow mb-5 bg-white rounded border border-primary border-3">
                     <div className="card-body">
                         <div className="mx-3">
-                            <h4>Technologies Used</h4>
+                            <h4>Languages</h4>
                             <ul className="list-group">
                                 <li className="expLi list-group-item">Python</li>
-                                <li className="expLi list-group-item">Django</li>
-                                <li className="expLi list-group-item">React</li>
+                                <li className="expLi list-group-item">Java</li>
                                 <li className="expLi list-group-item">JavaScript</li>
+                                <li className="expLi list-group-item">TypeScript</li>
                                 <li className="expLi list-group-item">HTML</li>
                                 <li className="expLi list-group-item">CSS</li>
+                            </ul>
+                            <h4>Databases</h4>
+                            <ul>
+                                <li className="expLi list-group-item">Node.js</li>
                                 <li className="expLi list-group-item">MySQL</li>
+                                <li className="expLi list-group-item">MongoDB</li>
                                 <li className="expLi list-group-item">PostgreSQL</li>
-                                <li className="expLi list-group-item">Pandas</li>
-                                <li className="expLi list-group-item">Kaboom</li>
-                                <li className="expLi list-group-item">Heroku</li>
+                            </ul>
+                            <h4>Frameworks/Libraries</h4>
+                            <ul>
+                                <li className='expLi list-group-item'>Django</li>
+                                <li className='expLi list-group-item'>Spring Boot</li>
+                                <li className='expLi list-group-item'>Angular</li>
+                                <li className='expLi list-group-item'>React</li>
+                                <li className='expLi list-group-item'>Express</li>
+                                <li className='expLi list-group-item'>Pandas</li>
+                                <li className='expLi list-group-item'>Kaboom</li>
+                                <li className='expLi list-group-item'>Bootstrap</li>
+                            </ul>
+                            <h4>Tools</h4>
+                            <ul>
+                                <li className='expLi list-group-item'>Heroku</li>
+                                <li className='expLi list-group-item'>Vercel</li>
+                                <li className='expLi list-group-item'>Axios</li>
+                                <li className='expLi list-group-item'>Cheerio</li>
+                                <li className='expLi list-group-item'>APIs</li>
+                                <li className='expLi list-group-item'>AWS</li>
+                                <li className='expLi list-group-item'>GitHub</li>
+                                <li className='expLi list-group-item'>eclipseIDE</li>
                             </ul>
                         </div>
                     </div>
